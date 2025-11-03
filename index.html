@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shaik Afreen Tabassum — Portfolio</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#7c3aed;--muted:#94a3b8;--glass: rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;color:#e6eef8;background:linear-gradient(180deg,#071029 0%, #081627 100%);-webkit-font-smoothing:antialiased}
+    .container{max-width:980px;margin:40px auto;padding:28px}
+    header{display:flex;gap:20px;align-items:center}
+    .avatar{width:140px;height:140px;border-radius:12px;overflow:hidden;flex:0 0 140px;border:3px solid rgba(255,255,255,0.06);background:var(--glass)}
+    .avatar img{width:100%;height:100%;object-fit:cover;display:block}
+    .intro{flex:1}
+    h1{margin:0;font-size:28px}
+    p.lead{margin:8px 0 0;color:var(--muted);font-size:15px}
+    .tags{margin-top:12px;display:flex;flex-wrap:wrap;gap:8px}
+    .tag{background:rgba(124,58,237,0.12);color:var(--accent);padding:6px 10px;border-radius:999px;font-weight:600;font-size:13px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:20px;border-radius:12px;margin-top:20px;border:1px solid rgba(255,255,255,0.03)}
+    .row{display:grid;grid-template-columns:1fr 320px;gap:20px}
+    h2{margin:0 0 12px}
+    .projects{display:grid;gap:14px}
+    .project{padding:14px;border-radius:10px;background:rgba(255,255,255,0.01);border:1px solid rgba(255,255,255,0.02)}
+    .project h3{margin:0 0 6px;font-size:16px}
+    .project p{margin:0;color:var(--muted);font-size:14px}
+    .links{display:flex;flex-direction:column;gap:10px}
+    a.btn{display:inline-block;padding:10px 12px;border-radius:10px;text-decoration:none;color:#071029;background:#e6eef8;font-weight:600;text-align:center}
+    .contact p{margin:6px 0;color:var(--muted)}
+    footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center}
+    @media(max-width:880px){.row{grid-template-columns:1fr} .avatar{width:110px;height:110px;flex:0 0 110px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar"><img src="WhatsApp Image 2025-10-17 at 16.11.00_6aacd45f.jpg" alt="Afreen Tabassum"></div>
+      <div class="intro">
+        <h1>Shaik Afreen Tabassum</h1>
+        <p class="lead">Student • Aspiring AI Research / Full‑Stack Intern<br>Java · React.js · Python · ML · Web Development</p>
+        <div class="tags">
+          <div class="tag">BookConnect (React)</div>
+          <div class="tag">Workspace Ergonomics (Deep Learning)</div>
+          <div class="tag">MySQL</div>
+          <div class="tag">AWS</div>
+        </div>
+      </div>
+    </header>
+
+    <div class="row">
+      <main>
+        <section class="card">
+          <h2>About Me</h2>
+          <p>Detail-oriented Information Technology student with a strong foundation in Java and web development, and hands-on experience in machine learning. I build usable web applications and train models to solve real-world problems. I'm passionate about scalable systems, clean code, and creating delightful user experiences.</p>
+        </section>
+
+        <section class="card" style="margin-top:18px">
+          <h2>Projects</h2>
+          <div class="projects">
+            <div class="project">
+              <h3>BookConnect — Book Exchange & Donation Platform</h3>
+              <p><strong>Tech:</strong> React.js, Firestore. Designed and implemented a user-friendly platform allowing users to donate and request books with real-time database sync.</p>
+            </div>
+
+            <div class="project">
+              <h3>Workspace Ergonomics for Software Engineers</h3>
+              <p><strong>Tech:</strong> Python, Deep Learning, NumPy, Scikit-learn. Developed and trained a deep learning model to classify ergonomic postures from images to promote workplace safety.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="card" style="margin-top:18px">
+          <h2>Experience & Coursework</h2>
+          <p><strong>Relevant coursework:</strong> Operating Systems, DBMS, Object-Oriented Programming, Computer Networks.</p>
+          <p style="margin-top:8px">Active participant in hackathons and campus projects. Runner-up in Smart India Hackathon 2024 and leadership experience as Hobby Horses Club coordinator.</p>
+        </section>
+      </main>
+
+      <aside>
+        <div class="card contact">
+          <h2>Contact</h2>
+          <p><strong>Email:</strong> <a href="mailto:shaikafreent@gmail.com">shaikafreent@gmail.com</a></p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/AFREEN-TABASSUM" target="_blank">github.com/AFREEN-TABASSUM</a></p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/shaik-afreen-tabassum-91680b254/" target="_blank">linkedin.com/in/shaik-afreen-tabassum</a></p>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h2>Skills</h2>
+          <p style="margin:6px 0"><strong>Languages:</strong> C, Java, Python, JavaScript</p>
+          <p style="margin:6px 0"><strong>Frontend:</strong> HTML, CSS, React.js</p>
+          <p style="margin:6px 0"><strong>Data & ML:</strong> NumPy, Pandas, Scikit-learn</p>
+          <p style="margin:6px 0"><strong>Databases & Cloud:</strong> MySQL, Firestore, AWS (EC2, S3)</p>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h2>Resume</h2>
+          <div class="links">
+            <a class="btn" href="mailto:shaikafreent@gmail.com">Email Me</a>
+            <a class="btn" href="https://github.com/AFREEN-TABASSUM" target="_blank">View GitHub</a>
+            <a class="btn" href="https://www.linkedin.com/in/shaik-afreen-tabassum-91680b254/" target="_blank">View LinkedIn</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      Built by Shaik Afreen Tabassum • © 2025
+    </footer>
+  </div>
+</body>
+</html>
